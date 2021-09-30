@@ -31,7 +31,7 @@ class BookAdaptor(private val data: List<Book>) : RecyclerView.Adapter<BookAdapt
         fun bind(item: Book){
             title.text = item.title
             rating.text = item.rating.toString()
-            //icon.setImageResource(item.icon)
+            icon.setImageResource(item.icon)
         }
     }
 }
