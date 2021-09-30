@@ -4,5 +4,5 @@ import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 
 @Parcelize
-data class Book(val title: String, val rating: Double, val icon: Int): Parcelable {
+data class Book(val title: String, val rating: Float, val icon: Int): Parcelable {
 }
